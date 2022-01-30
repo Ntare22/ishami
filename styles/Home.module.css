@@ -1,0 +1,39 @@
+.container {
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    'field field field field field field '
+    'closeUp closeUp leaves leaves leaves leaves'
+    'flags flags leaves leaves leaves leaves';
+  grid-gap: 2px;
+}
+
+.field {
+  grid-area: field;
+  width: 100%;
+}
+
+.closeUp {
+  grid-area: closeUp;
+  width: 100%;
+  height: 100%;
+}
+
+.flags {
+  grid-area: flags;
+  background-color: #00B85C;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px 100px;
+}
+
+.leaves {
+  grid-area: leaves;
+  width: 100%;
+  height: 100%;
+}
+
