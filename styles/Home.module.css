@@ -44,8 +44,10 @@
 }
 
 .flags h2 {
-  width: 50%;
+  width: 80%;
   margin-left: 60%;
+  font-size: 2vw;
+  color: #fff;
 }
 
 .flags:hover {
@@ -136,8 +138,9 @@
 
 .articleTitle {
   color: white;
-  font-size: 50px;
+  font-size: 2vw;
   position: absolute;
   top: 50%;
   left: 10%;
+  width: 50%;
 }

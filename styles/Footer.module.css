@@ -1,9 +1,11 @@
 .container {
     background-color: #00B85C;
     height: 30vh;
-    top: 0;
+    left: 0;
+    bottom: 0;
     padding: 8px 0;
     margin-top: 20px;
+    width: 100%;
 }
 
 .copyright {
