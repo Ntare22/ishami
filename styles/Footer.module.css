@@ -1,0 +1,62 @@
+.container {
+    background-color: #00B85C;
+    height: 30vh;
+    left: 0;
+    bottom: 0;
+    padding: 8px 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.footer {
+    background-color: #6C7275;
+    height: 25vh;
+    padding: 40px 60px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.countryOffice {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.details {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.quickLinks ul li,
+.departmentLinks ul li {
+    line-height: 1.3rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.footer p {
+    text-transform: uppercase;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socials {
+    margin-right: 5%;
+}
