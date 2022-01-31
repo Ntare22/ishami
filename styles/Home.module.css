@@ -25,10 +25,22 @@
 .flags {
   grid-area: flags;
   background-color: #00B85C;
+  background-image: url('../assets/flag-white.png');
+  background-position: center left;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   display: flex;
-  padding: 10px 100px;
+  padding: 10% 100px;
+}
+
+.flags h2 {
+  width: 50%;
+  margin-left: 60%;
+}
+
+.flags:hover {
+  background-image: url('../assets/flag-colored.png');
 }
 
 .leaves {
@@ -37,3 +49,55 @@
   height: 100%;
 }
 
+.divider {
+  margin-top: 3rem;
+  border-top: 1px solid #00B85C;
+  width: 90%;
+}
+
+.newsContainer h1 {
+  padding: 1rem 5rem;
+  color: #00B85C;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.article {
+  position: relative;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00B85C;
+}
+
+.article:hover .overlay {
+  opacity: 0.7;
+}
+
+.articleImg {
+  width: 99%;
+  margin: auto;
+  display: block;
+}
+
+.articleTitle {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
