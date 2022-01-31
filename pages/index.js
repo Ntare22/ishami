@@ -25,13 +25,27 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className={styles.grid}>
+        <div className={styles.flexCol}>
           <Image source={fieldImg} styles={styles.field} />
-          <Image source={closeUpLips} styles={styles.closeUp} />
-          <div className={styles.flags}>
-            <h2>Scroll in on our Retailers Country wide</h2>
+          <div className={styles.flex}>
+            <div className={styles.layerTwo}>
+              <div className={styles.article}>
+                <Image source={closeUpLips} styles={styles.closeUp} />
+                <div className={styles.overlay}>
+                  <div className={styles.articleTitle}>Ishami Factory</div>
+                </div>
+              </div>
+              <div className={styles.flags}>
+                <h2>Scroll in on our Retailers Country wide</h2>
+              </div>
+            </div>
+            <div className={styles.article}>
+              <Image source={leavesImg} styles={styles.leaves} />
+              <div className={styles.overlay}>
+                <div className={styles.articleTitle}>Ishami Factory</div>
+              </div>
+            </div>
           </div>
-          <Image source={leavesImg} styles={styles.leaves} />
         </div>
 
         <div className={styles.newsContainer}>
